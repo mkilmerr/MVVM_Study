@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6439563C24784CF900E89BD3 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6439563B24784CF900E89BD3 /* ActivityView.swift */; };
+		6439563E2478508B00E89BD3 /* ActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6439563D2478508B00E89BD3 /* ActivityCardView.swift */; };
+		643956452478517A00E89BD3 /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643956442478517A00E89BD3 /* ReusableViewProtocol.swift */; };
+		6474E63F24789A1400EB5C08 /* ElementsInsideCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474E63E24789A1400EB5C08 /* ElementsInsideCardView.swift */; };
 		64CA61282476A6EF0000E347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA61272476A6EF0000E347 /* AppDelegate.swift */; };
 		64CA612A2476A6EF0000E347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA61292476A6EF0000E347 /* SceneDelegate.swift */; };
-		64CA612C2476A6EF0000E347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA612B2476A6EF0000E347 /* ViewController.swift */; };
-		64CA612F2476A6EF0000E347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CA612D2476A6EF0000E347 /* Main.storyboard */; };
 		64CA61322476A6EF0000E347 /* MVVM_Study.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64CA61302476A6EF0000E347 /* MVVM_Study.xcdatamodeld */; };
 		64CA61342476A6F00000E347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CA61332476A6F00000E347 /* Assets.xcassets */; };
 		64CA61372476A6F00000E347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CA61352476A6F00000E347 /* LaunchScreen.storyboard */; };
 		64CA61422476A6F00000E347 /* MVVM_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA61412476A6F00000E347 /* MVVM_StudyTests.swift */; };
 		64CA614D2476A6F00000E347 /* MVVM_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA614C2476A6F00000E347 /* MVVM_StudyUITests.swift */; };
+		64CA615C24773D6A0000E347 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA615B24773D6A0000E347 /* Activity.swift */; };
+		64CA615E24773EFB0000E347 /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA615D24773EFB0000E347 /* DynamicValue.swift */; };
+		64CA6161247744DA0000E347 /* ActivityDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA6160247744DA0000E347 /* ActivityDataSource.swift */; };
+		64CA6164247746B20000E347 /* ActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA6163247746B20000E347 /* ActivityService.swift */; };
+		64CA6166247748B00000E347 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA6165247748B00000E347 /* ActivityViewModel.swift */; };
+		64CA616924774FBC0000E347 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA616824774FBC0000E347 /* ActivityCell.swift */; };
+		64CA616B2477523E0000E347 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA616A2477523E0000E347 /* ActivityViewController.swift */; };
+		64CA616E24775A350000E347 /* FetchProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CA616D24775A350000E347 /* FetchProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6439563B24784CF900E89BD3 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivityView.swift; path = MVVM_Study/ActivityView.swift; sourceTree = SOURCE_ROOT; };
+		6439563D2478508B00E89BD3 /* ActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCardView.swift; sourceTree = "<group>"; };
+		643956442478517A00E89BD3 /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
+		6474E63E24789A1400EB5C08 /* ElementsInsideCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsInsideCardView.swift; sourceTree = "<group>"; };
 		64CA61242476A6EF0000E347 /* MVVM_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CA61272476A6EF0000E347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64CA61292476A6EF0000E347 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		64CA612B2476A6EF0000E347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		64CA612E2476A6EF0000E347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64CA61312476A6EF0000E347 /* MVVM_Study.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVVM_Study.xcdatamodel; sourceTree = "<group>"; };
 		64CA61332476A6F00000E347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64CA61362476A6F00000E347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,14 @@
 		64CA61482476A6F00000E347 /* MVVM_StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM_StudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CA614C2476A6F00000E347 /* MVVM_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_StudyUITests.swift; sourceTree = "<group>"; };
 		64CA614E2476A6F00000E347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64CA615B24773D6A0000E347 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		64CA615D24773EFB0000E347 /* DynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
+		64CA6160247744DA0000E347 /* ActivityDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDataSource.swift; sourceTree = "<group>"; };
+		64CA6163247746B20000E347 /* ActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityService.swift; sourceTree = "<group>"; };
+		64CA6165247748B00000E347 /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		64CA616824774FBC0000E347 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		64CA616A2477523E0000E347 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		64CA616D24775A350000E347 /* FetchProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +121,13 @@
 		64CA61262476A6EF0000E347 /* MVVM_Study */ = {
 			isa = PBXGroup;
 			children = (
+				64CA616C24775A220000E347 /* Protocol */,
+				64CA616724774FA70000E347 /* View */,
+				64CA61622477469A0000E347 /* Service */,
+				64CA615F247744B70000E347 /* ViewModel */,
+				64CA615A24773D4E0000E347 /* Model */,
 				64CA61272476A6EF0000E347 /* AppDelegate.swift */,
 				64CA61292476A6EF0000E347 /* SceneDelegate.swift */,
-				64CA612B2476A6EF0000E347 /* ViewController.swift */,
-				64CA612D2476A6EF0000E347 /* Main.storyboard */,
 				64CA61332476A6F00000E347 /* Assets.xcassets */,
 				64CA61352476A6F00000E347 /* LaunchScreen.storyboard */,
 				64CA61382476A6F00000E347 /* Info.plist */,
@@ -129,6 +152,53 @@
 				64CA614E2476A6F00000E347 /* Info.plist */,
 			);
 			path = MVVM_StudyUITests;
+			sourceTree = "<group>";
+		};
+		64CA615A24773D4E0000E347 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64CA615B24773D6A0000E347 /* Activity.swift */,
+				64CA615D24773EFB0000E347 /* DynamicValue.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64CA615F247744B70000E347 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64CA6160247744DA0000E347 /* ActivityDataSource.swift */,
+				64CA6165247748B00000E347 /* ActivityViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64CA61622477469A0000E347 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				64CA6163247746B20000E347 /* ActivityService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		64CA616724774FA70000E347 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64CA616824774FBC0000E347 /* ActivityCell.swift */,
+				64CA616A2477523E0000E347 /* ActivityViewController.swift */,
+				6439563B24784CF900E89BD3 /* ActivityView.swift */,
+				6439563D2478508B00E89BD3 /* ActivityCardView.swift */,
+				6474E63E24789A1400EB5C08 /* ElementsInsideCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64CA616C24775A220000E347 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				64CA616D24775A350000E347 /* FetchProtocol.swift */,
+				643956442478517A00E89BD3 /* ReusableViewProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +307,6 @@
 			files = (
 				64CA61372476A6F00000E347 /* LaunchScreen.storyboard in Resources */,
 				64CA61342476A6F00000E347 /* Assets.xcassets in Resources */,
-				64CA612F2476A6EF0000E347 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +331,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64CA612C2476A6EF0000E347 /* ViewController.swift in Sources */,
+				64CA616E24775A350000E347 /* FetchProtocol.swift in Sources */,
+				64CA615C24773D6A0000E347 /* Activity.swift in Sources */,
+				6439563C24784CF900E89BD3 /* ActivityView.swift in Sources */,
+				6439563E2478508B00E89BD3 /* ActivityCardView.swift in Sources */,
+				64CA615E24773EFB0000E347 /* DynamicValue.swift in Sources */,
+				643956452478517A00E89BD3 /* ReusableViewProtocol.swift in Sources */,
+				64CA616924774FBC0000E347 /* ActivityCell.swift in Sources */,
+				64CA6161247744DA0000E347 /* ActivityDataSource.swift in Sources */,
+				6474E63F24789A1400EB5C08 /* ElementsInsideCardView.swift in Sources */,
 				64CA61322476A6EF0000E347 /* MVVM_Study.xcdatamodeld in Sources */,
 				64CA61282476A6EF0000E347 /* AppDelegate.swift in Sources */,
+				64CA6164247746B20000E347 /* ActivityService.swift in Sources */,
 				64CA612A2476A6EF0000E347 /* SceneDelegate.swift in Sources */,
+				64CA6166247748B00000E347 /* ActivityViewModel.swift in Sources */,
+				64CA616B2477523E0000E347 /* ActivityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +381,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		64CA612D2476A6EF0000E347 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64CA612E2476A6EF0000E347 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		64CA61352476A6F00000E347 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
